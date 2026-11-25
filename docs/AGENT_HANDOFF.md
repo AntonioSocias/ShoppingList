@@ -8,6 +8,7 @@
 - Actualizar el estado de cada solicitud.
 - Referenciar la documentacion tecnica modificada.
 - No aprobar decisiones sin autorizacion.
+- Usar BACKEND y FRONT como identificadores de emisor y destinatario; OWNER para el propietario y SHARED para tareas conjuntas.
 
 ## Estados
 
@@ -21,8 +22,8 @@
 
 ### TASK-001
 
-- Emisor: Backend
-- Destinatario: Android
+- Emisor: BACKEND
+- Destinatario: FRONT
 - Estado: PENDING
 - Prioridad: Alta
 - Fecha: 2026-11-25
@@ -49,7 +50,11 @@ Analizar:
 
 No modificar todavia el comportamiento de Android.
 
-#### Respuesta
+#### Respuesta de FRONT
+
+Pendiente.
+
+#### Revisión de BACKEND
 
 Pendiente.
 

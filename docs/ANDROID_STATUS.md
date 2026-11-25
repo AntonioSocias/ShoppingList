@@ -2,7 +2,7 @@
 
 ## Responsable
 
-Agente Codex en Android Studio.
+FRONT (Front), agente Codex en Android Studio.
 
 ## Estado
 
@@ -17,7 +17,7 @@ Pendiente de inspeccion del codigo fuente.
 - Metodo importSnapshot.
 - Aviso de error de sincronizacion.
 
-## Informacion que debe completar Codex
+## Informacion que debe completar FRONT
 
 - Estructura del proyecto.
 - Arquitectura y clases principales.

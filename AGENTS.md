@@ -8,9 +8,12 @@ y sincronizacion mediante un backend centralizado.
 
 ## Responsabilidades
 
-- ChatGPT: arquitectura, backend Python y PostgreSQL.
-- Codex: desarrollo y mantenimiento de Android.
-- Propietario: validacion de decisiones tecnicas.
+- **BACKEND (Backend)**: agente ChatGPT responsable de la arquitectura general, Python, FastAPI, PostgreSQL, Docker, seguridad y sincronización del servidor.
+- **FRONT (Front)**: agente Codex en Android Studio responsable de Java, SQLite, interfaz, funcionamiento offline, cliente HTTP y sincronización local.
+- **OWNER**: propietario del proyecto; valida decisiones técnicas, autoriza cambios y resuelve discrepancias.
+- **SHARED**: identificador para tareas y decisiones que afectan a ambos componentes; no es un agente.
+
+Las identidades son permanentes e independientes de la herramienta o modelo utilizado. En conversación se usan Backend y Front; en los documentos, BACKEND y FRONT.
 
 ## Estructura del repositorio
 
@@ -55,6 +58,7 @@ Backend:
 - docs/DECISIONS.md
 - docs/PROJECT_STATUS.md
 - docs/ANDROID_STATUS.md
+- docs/AGENT_HANDOFF.md
 
 ## Al finalizar cada tarea
 
@@ -70,6 +74,10 @@ Backend:
 
 Consultar docs/AGENT_HANDOFF.md antes de iniciar
 cada tarea y registrar los resultados al finalizar.
+
+Usar BACKEND y FRONT como identificadores de emisor y destinatario.
+Identificar el rol en cada respuesta, respetar las responsabilidades y
+coordinar los cambios compartidos. OWNER valida las decisiones definitivas.
 
 Actualizar tambien PROJECT_STATUS.md y los
 documentos tecnicos afectados.

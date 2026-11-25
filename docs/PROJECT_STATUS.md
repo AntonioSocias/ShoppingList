@@ -15,10 +15,12 @@
 
 ## Fase 2 - Coordinacion entre agentes
 
-- [ ] Crear documentacion compartida.
-- [ ] Configurar AGENTS.md.
-- [ ] Conectar GitHub con ChatGPT.
-- [ ] Analizar implementacion Android.
+- [x] Crear documentacion compartida.
+- [x] Configurar AGENTS.md.
+- [x] Conectar GitHub con ChatGPT (BACKEND).
+- [x] Crear AGENT_HANDOFF.md.
+- [x] Definir las identidades BACKEND y FRONT.
+- [ ] Analizar implementacion Android (FRONT, TASK-001).
 - [ ] Validar arquitectura conjunta.
 
 ## Fase 3 - Backend
@@ -45,5 +47,4 @@
 
 ## Siguiente tarea
 
-Analizar el estado real del proyecto Android
-antes de disenar la base de datos definitiva.
+FRONT: realizar TASK-001, analizar el estado real de Android y registrar el resultado para revisión de BACKEND antes de diseñar la base de datos definitiva.

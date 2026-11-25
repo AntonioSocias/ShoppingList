@@ -30,3 +30,12 @@
 ## Nuevas decisiones
 
 Registrar fecha, decision, motivo y componentes afectados.
+
+### 2026-11-25 — Identidad de los agentes (aprobada por OWNER)
+
+- BACKEND: agente responsable del servidor Python y arquitectura general.
+- FRONT: agente responsable de Android.
+- OWNER: propietario y responsable de validar decisiones.
+- SHARED: tareas o decisiones conjuntas.
+- Motivo: simplificar referencias y mantener identidades independientes de la herramienta utilizada.
+- Componentes afectados: coordinación y documentación compartida; sin cambios funcionales.
