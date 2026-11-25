@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ShoppingList</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Lista de la compra</string>
+    <string name="add_shopping_item">Añadir producto</string>
+    <string name="shopping_item_purchased">Comprado</string>
+    <string name="shopping_item_pending">Pendiente</string>
+    <string name="shopping_list_storage_error">No se pudo acceder a la lista guardada</string>
+    <string name="shopping_list_outdated">La lista no está actualizada. Se muestran los datos guardados.</string>
+
+    <string-array name="sample_shopping_items">
+        <item>Leche</item>
+        <item>Pan integral</item>
+        <item>Huevos</item>
+        <item>Manzanas</item>
+        <item>Tomates</item>
+        <item>Arroz</item>
+        <item>Aceite de oliva</item>
+        <item>Yogur natural</item>
+    </string-array>
+
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+</resources>
