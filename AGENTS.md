@@ -65,3 +65,12 @@ Backend:
 - Actualizar docs/PROJECT_STATUS.md.
 - Registrar problemas y bloqueos pendientes.
 - No realizar commits ni pushes sin autorizacion.
+
+## Comunicacion entre agentes
+
+Consultar docs/AGENT_HANDOFF.md antes de iniciar
+cada tarea y registrar los resultados al finalizar.
+
+Actualizar tambien PROJECT_STATUS.md y los
+documentos tecnicos afectados.
+
